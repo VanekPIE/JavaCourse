@@ -7,7 +7,7 @@ public class GameBJImpl implements GameBJ {
 
     PlayerImpl[] playersInGame = new PlayerImpl[3];
 
-    DeckOfCardsImp deckOfCardsImp;
+    DeckOfCardsImp deckOfCardsImp = new DeckOfCardsImp();
 
     @Override
     public void addPlayerInGame(PlayerImpl player) {

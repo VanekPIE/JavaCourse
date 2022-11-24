@@ -16,7 +16,7 @@ public class DeckOfCardsImp implements DeckOfCards {
 
     // constructor
 
-    public DeckOfCardsImp(Card[] cards) {
+    public DeckOfCardsImp() {
         cards[0] = new CardImpl("двойка треф", 2);
         cards[1] = new CardImpl("Двойка Черви", 2);
         cards[2] = new CardImpl("Двойка Бубны", 2);

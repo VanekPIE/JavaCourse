@@ -44,6 +44,7 @@ public class PlayerImpl implements Player {
     public int countValuesOfAllCardsOnHand() {
         int count = 0;
         for (Card c :cardsOnHand) {
+            if (c != null)
             count += c.getValue();
         }
         return 0;
@@ -82,7 +83,7 @@ public class PlayerImpl implements Player {
     }
 
     public boolean isCroupier() {
-        return isCroupier;
+        return false;
     }
 
     public void setCroupier(boolean croupier) {

@@ -5,5 +5,6 @@ public interface Player {
     int countValuesOfAllCardsOnHand();
     boolean needCard();
     void showCardOnHand();
+    public boolean isCroupier();
 
 }
